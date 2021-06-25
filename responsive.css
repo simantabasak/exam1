@@ -1,0 +1,123 @@
+ @media all and ( max-width:1300px){
+     .fix-width{
+         margin: auto;
+         max-width: 1250px;
+     }
+     .header-menu {
+        margin: 0 25px;
+    }
+        
+ }
+ @media all and ( max-width:1200px){
+    .header-section .write h3::before{
+        left: 180px;
+    }
+    .header-section .write h3::after{
+        right: 180px;
+    }
+    .portfolio ul{
+        text-align: center;
+    }
+    .portfolio .image-box{
+        display: flex;
+        justify-content: center;
+    }
+    .portfolio .image-box img{
+        height: 300px;
+        width: 300px;
+    }
+ }
+ @media all and ( max-width:1080px){
+    .header-menu .logo img{
+        height: 35px;
+        width: 70px;
+    }
+    .header-section .write h3::before{
+        left: 100px;
+    }
+    .header-section .write h3::after{
+        right: 100px;
+    }
+     
+ }
+ @media all and ( max-width:950px){
+    
+    .header-menu .menu ul li a{
+        padding: 0 7px;
+    }
+    .header-section .write h3::before{
+        display: none;
+    }
+    .header-section .write h3::after{
+        display: none;
+    }
+    .hello .image img{
+        height: 700px;
+    }
+    .hello .write h3{
+       padding-top:20px;
+       width: 100%;}
+    .hello .write p{
+        font-size: 15px;
+    }
+    .hello .write p span{
+        width: 90px;
+        display: inline-block;
+    }
+ }
+ @media all and ( max-width:800px){
+     .header-menu .logo img{
+         height: 30px;
+         width: 70px;
+     }
+    .header-menu .menu ul li a{
+        padding: 0 5px;
+        font-size: 15px;
+    }
+    .hello-n{
+        display: flex;
+        flex-direction: column;
+    }
+    .hello .image{
+        margin: auto;
+    }
+ }
+ @media all and ( max-width:720px){
+    .header-menu .menu ul li a{
+        padding: 0 3px;
+        font-size: 13px;
+    }
+ }
+ @media all and ( max-width:610px){
+     .header-menu{
+         display: flex;
+         flex-direction: column;
+     }
+     .header-menu .logo{        
+        display: flex;
+        justify-content: center;
+    }
+    .header-menu .logo img{
+        height: 50px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .header-menu .menu{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+ }
+ @media all and ( max-width:520px){
+     .header-menu .menu ul li a{
+         font-size: 10px;
+     }
+ }
+ @media all and ( max-width:425px){
+    .header-menu .menu ul li a{
+        font-size: 13px;
+        padding: 5px;
+    }
+ }
